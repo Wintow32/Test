@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - HANGZHOU PIAT GARMENTS CO.,LTD.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/language-switcher.css">
+    <link rel="stylesheet" href="css/scroll-to-top.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="PIAT Logo" id="logo-img">
+                    </a>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home" data-i18n="nav_home">Home</a></li>
+                <li><a href="index.html#about" data-i18n="nav_about">About</a></li>
+                <li><a href="index.html#products" data-i18n="nav_products">Products</a></li>
+                <li><a href="index.html#contact" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="product-showcase">
+        <div class="container">
+            <h1 class="product-title" data-i18n="product_showcase">Product Showcase</h1>
+            
+            <div class="product-categories">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="all" data-i18n="all_products">All Products</button>
+                    <button class="category-tab" data-category="Mens-Coat&Jacket" data-i18n="mens_coat_jacket">Men's Coat & Jacket</button>
+                    <button class="category-tab" data-category="Ladies-Coat" data-i18n="ladies_coat">Ladies' Coat</button>
+                    <button class="category-tab" data-category="Ladies-Jacket" data-i18n="ladies_jacket">Ladies' Jacket</button>
+                    <button class="category-tab" data-category="Mens-Wind-Jacket" data-i18n="mens_wind_jacket">Men's Wind Jacket</button>
+                    <button class="category-tab" data-category="Ladies-wind-Coat" data-i18n="ladies_wind_coat">Ladies' Wind Coat</button>
+                    <button class="category-tab" data-category="straw-hats" data-i18n="straw_hats">Straw Hats</button>
+                    <button class="category-tab" data-category="Mens-SOCKS" data-i18n="mens_socks">Men's Socks</button>
+                    <button class="category-tab" data-category="scarves-foulards" data-i18n="scarves_foulards">Scarves & Foulards</button>
+                </div>
+            </div>
+            
+            <div class="product-gallery">
+                <!-- Products will be dynamically loaded by JavaScript -->
+            </div>
+            
+            <div class="product-detail-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="product-detail-content">
+                        <div class="product-detail-image">
+                            <img src="" alt="Product Detail">
+                        </div>
+                        <div class="product-detail-info">
+                            <h2 class="product-detail-title"></h2>
+                            <p class="product-detail-description" data-i18n="product_description">High-quality garment product made with premium materials, comfortable and durable.</p>
+                            <div class="product-detail-features">
+                                <p><strong data-i18n="material">Material</strong>: <span class="product-material" data-i18n="premium_fabric">Premium Fabric</span></p>
+                                <p><strong data-i18n="style">Style</strong>: <span class="product-style" data-i18n="modern_fashion">Modern Fashion</span></p>
+                                <p><strong data-i18n="season">Season</strong>: <span class="product-season" data-i18n="all_seasons">All Seasons</span></p>
+                            </div>
+                            <a href="index.html#contact" class="inquiry-button" data-i18n="inquire_now">Inquire Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>HANGZHOU PIAT GARMENTS CO.,LTD.</h3>
+                    <p data-i18n="hero_subtitle">Your Trusted Partner in Quality Garments and Accessories</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="quick_links">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home" data-i18n="nav_home">Home</a></li>
+                        <li><a href="index.html#about" data-i18n="nav_about">About</a></li>
+                        <li><a href="index.html#products" data-i18n="nav_products">Products</a></li>
+                        <li><a href="index.html#contact" data-i18n="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="contact_info">Contact Info</h3>
+                    <p><span data-i18n="phone">Phone</span>: +86 13957137357</p>
+                    <p><span data-i18n="email">Email</span>: shirleyxu@hangzhou-piat.com</p>
+                    <p><span data-i18n="website">Website</span>: www.hangzhou-piat.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HANGZHOU PIAT GARMENTS CO.,LTD. <span data-i18n="all_rights_reserved">All rights reserved</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/languages.js"></script>
+    <script src="js/language-switcher.js"></script>
+    <script src="js/scroll-to-top.js"></script>
+    <script src="product-script.js"></script>
+</body>
+</html> 
